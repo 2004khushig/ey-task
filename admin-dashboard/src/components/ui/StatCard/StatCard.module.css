@@ -1,0 +1,109 @@
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 14px;
+  color: #a5a3ae;
+  margin-bottom: 4px;
+}
+
+.value {
+  font-size: 22px;
+  font-weight: 700;
+  color: #5e5873;
+}
+
+.iconBox {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(115, 103, 240, 0.15);
+  color: #7367f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.trend {
+  margin-top: 12px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.positive {
+  color: #28c76f;
+}
+
+.negative {
+  color: #ea5455;
+}
+.transactionRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+  padding: 8px 0;
+}
+
+.leftContent {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.iconBox {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.amount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+}
+
+.arrow {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.green { 
+  color: #28c76f !important; 
+  font-weight: 600;
+}
+.red { 
+  color: #ea5455 !important; 
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 14px;
+  margin: 0;
+}
+
+.muted {
+  color: #6e6b7b;
+  font-size: 12px;
+  font-weight: 400;
+}

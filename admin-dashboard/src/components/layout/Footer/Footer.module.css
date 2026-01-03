@@ -1,0 +1,44 @@
+.footer {
+  height: 48px;
+  background: #ffffff;
+  border-top: 1px solid #ebe9f1;
+  padding: 0 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 13px;
+  color: #6e6b7b;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.heart {
+  color: #ea5455;
+  font-size: 13px;
+}
+
+.brand {
+  color: #7367f0;
+  font-weight: 500;
+}
+
+.right {
+  display: flex;
+  gap: 16px;
+}
+
+.right a {
+  text-decoration: none;
+  color: #7367f0;
+  font-weight: 400;
+}
+
+.right a:hover {
+  text-decoration: underline;
+}

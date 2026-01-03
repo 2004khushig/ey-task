@@ -1,0 +1,180 @@
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background-color: #f8f7fa;
+  border-right: 1px solid #ebe9f1;
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* LOGO TOP */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 12px;
+  margin-bottom: 16px;
+}
+
+.logoIcon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #7367f0, #9e95ff);
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoText {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+}
+
+/* Divider under logo */
+.logoDivider {
+  height: 1px;
+  background: #ebe9f1;
+  margin: 12px 0 8px;
+}
+
+/* SECTIONS */
+.section {
+  margin-bottom: 8px;
+}
+
+.sectionTitle {
+  font-size: 11px;
+  font-weight: 600;
+  color: #a5a3ae;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 12px 12px 6px;
+}
+
+/* ITEM */
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  color: #6e6b7b;
+  font-size: 14px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.item:hover {
+  background: #f3f2f7;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* left icon circle for non-dashboard items */
+.circleIcon {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #b9b9c3;
+}
+
+/* main icon (for dashboard – house icon) */
+.mainIcon {
+  font-size: 16px;
+}
+
+/* label text */
+.label {
+  font-size: 14px;
+}
+
+/* ACTIVE BASE (for Calendar etc.) */
+.active {
+  background: #f0eefc;
+  color: #7367f0;
+}
+
+/* SPECIAL: first section, third item => gradient pill */
+.section:first-child .item:nth-child(3).active {
+  background: linear-gradient(135deg, #7367f0, #9e95ff);
+  color: #ffffff;
+}
+
+/* BADGE FOR "New" */
+.badge {
+  background: #ff4d49;
+  color: white;
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+
+/* subtle divider between large groups */
+.sectionDivider {
+  height: 1px;
+  background: #ebe9f1;
+  margin: 8px 0;
+}
+/* Icon styles */
+.homeIcon, .mailIcon, .messageIcon, .calendarIcon, .fileIcon,
+.userIcon, .shieldIcon, .squareIcon, .typeIcon, .starIcon,
+.cardIcon, .layoutIcon, .monitorIcon, .checkIcon, .dotsIcon,
+.gridIcon, .chartIcon, .chevronIcon {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.children {
+  margin-left: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* Arrow animation */
+.arrow {
+  transition: transform 0.2s ease;
+}
+
+.arrowOpen {
+  transform: rotate(90deg);
+}
+/* DARK MODE */
+.dark {
+  background: #2f2b3d;
+  border-right: 1px solid #3a3553;
+}
+
+.dark .item {
+  color: #cfcbe5;
+}
+
+.dark .item:hover {
+  background: #3a3553;
+}
+
+.dark .active {
+  background: linear-gradient(135deg, #7367f0, #9e95ff);
+  color: #fff;
+}
+
+.dark .sectionTitle {
+  color: #9f9bbd;
+}
+
+.dark .circleIcon {
+  border-color: #9f9bbd;
+}
