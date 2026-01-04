@@ -46,6 +46,8 @@ The Figma file was treated as the single source of truth for layout, spacing, co
   Scoped styles for pixel-perfect Figma matching
 - **No UI libraries**  
   100% manual implementation per assignment rules
+<img width="2638" height="1088" alt="image" src="https://github.com/user-attachments/assets/1ab51cc4-207e-4535-b8e9-6e5cc87f7654" />
+<img width="2637" height="1064" alt="image" src="https://github.com/user-attachments/assets/2c6cc0f5-7e4a-4290-93fc-abd1898c5759" />
 
 ---
 
@@ -54,16 +56,20 @@ The Figma file was treated as the single source of truth for layout, spacing, co
 ```bash
 React (Vite) + TypeScript + CSS Modules + SVG Assets
 Deployment: Vercel
+```
 
-⏱ Time Investment
-text
-Design analysis: 1.5h
-Core layout: 3h  
-Dashboard cards: 3h
-Dark mode + interactions: 1h
+---
+
+## ⏱ Time Investment
+Design analysis: 0.5h
+Core layout: 0.5h  
+Dashboard cards: 1h
 Polish: 1h
-**Total: ~9-10h**
-🤖 AI Usage (Responsible)
+**Total: ~3-4h**
+
+---
+
+##🤖 AI Usage (Responsible)
 ❌ NOT used for: Design decisions, layout, styling
 
 ✅ USED for: TypeScript debugging, React patterns, boilerplate acceleration
